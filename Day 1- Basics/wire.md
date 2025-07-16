@@ -1,7 +1,7 @@
-# Day 1 – Mux 2-to-1
+# Day 1 – Wire
 
 ## 🎯 Problem Description
-Design a 2-input multiplexer using assign statement in Verilog.
+Create a module with one input and one output that behaves like a wire.
 
 ## 📄 Verilog Code
 ```verilog
