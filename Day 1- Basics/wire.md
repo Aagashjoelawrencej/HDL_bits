@@ -5,7 +5,7 @@ Create a module with one input and one output that behaves like a wire.
 
 ## 📄 Verilog Code
 ```verilog
-module mux2to1(input a, input b, input sel, output y);
-    assign y = sel ? b : a;
+//Use assign keyword to connect out to in (continuous assignment)
+module top_module( input in, output out );
+    assign out=in;
 endmodule
-
